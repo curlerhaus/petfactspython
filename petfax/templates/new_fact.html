@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Pet Facts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    <a href="/pets">Home</a>
+
+    <h1>Pet Facts</h1>
+    <div class="pet_form">
+        <h3>Have more pet facts to share? Input them here.</h3>
+        <form>
+            <input type="text" id="pet_name" value="Pet Name"><br>
+            <textarea name="pet_facts" rows="6" cols="50">New Pet Facts</textarea><br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</body>
+
+</html>

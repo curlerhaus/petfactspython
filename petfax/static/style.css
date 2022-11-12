@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.pet_block {
+    padding: 1em;
+    background-color: antiquewhite;
+    border-radius: 5%;
+}
+
+.pet_block>img {
+    height: 400px;
+    width: auto;
+    border-radius: 5%;
+}
+
+.pet_home {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 1em;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pet_facts {
+    text-align: center;
+}
+
+.pet_single>img {
+    border-radius: 5%;
+}
+
+.pet_single {
+    text-align: center;
+}
+
+.pet_single>img {
+    height: auto;
+    width: 400px;
+}
+
+.pet_form {
+    text-align: center;
+}
